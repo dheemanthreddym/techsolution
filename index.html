@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Solutions</title>
+    
+    <style>
+        body{
+            background-color: #f0f0f0;
+        }
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #f0f0f0;
+            --text-color: #000000;
+            --background-color: #ffffff;
+        }
+        header{
+            position: relative;
+            background-color: var(--secondary-color);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo{
+            text-align: left;
+            font-size: 40px;
+            text-shadow: 2px 2px 4px var(--text-color);
+            margin-bottom: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li{
+            margin-right: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: var(--text-color);
+            transition: color 0.2s ease;
+        }
+        nav a:hover{
+            color: var(--primary-color);
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section{
+            background-color: var(--secondary-color);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section .services{
+            float: left;
+        }
+        section .news{
+            float: right;
+        }
+        h2{
+            margin-top: 0;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Tech Solutions</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news">Latest News</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Tech Solutions is a leading provider of technology services and solutions, dedicated to helping businesses thrive in the digital age.</p>
+        </section>
+
+        <section id="services">
+            <h2>Services Provided</h2>
+            <ul>
+                <li>IT Consulting</li>
+                <li>Cloud Solutions</li>
+                <li>Cybersecurity Services</li>
+                <li>Software Development</li>
+                <li>Data Analytics</li>
+            </ul>
+        </section>
+
+        <section id="news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>New Partnership with XYZ Corp</h3>
+                <p>We are excited to announce our new partnership with XYZ Corp to enhance our service offerings.</p>
+            </article>
+            <article>
+                <h3>Tech Solutions Wins Industry Award</h3>
+                <p>We are proud to have been recognized as the best tech service provider in 2023.</p>
+            </article>
+        </section>
+
+        <section id="careers">
+            <h2>Careers</h2>
+            <p>Join our team! We are looking for talented individuals to help us innovate and grow. Check our <a href="#contact">Contact Us</a> page for more information.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@techsolutions.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Tech Lane, Silicon Valley, CA</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tech Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
